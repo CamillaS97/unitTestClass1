@@ -71,4 +71,4 @@ class ServiceUser:
         for stored_user in self.store.bd:
             if stored_user.name == old_name:
                 stored_user.name = new_name
-                return stored_user
+                return "Name updated"
