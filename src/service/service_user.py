@@ -72,3 +72,5 @@ class ServiceUser:
             if stored_user.name == old_name:
                 stored_user.name = new_name
                 return "Name updated"
+
+        return "User does not exist"
